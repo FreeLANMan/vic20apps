@@ -24,3 +24,6 @@ However, everyone was given the chance to correct what was wrong in the code the
 - Claude 3.7 Sonnet
   
 The game is simple and slow, but it has all the basic characteristics of a game. So here is the game that was created by a current AI, leaving it free to define all the features of the game.
+
+The Chat:
+https://claude.ai/share/109f205e-7c8a-4a6d-ad11-d2f0002be072
