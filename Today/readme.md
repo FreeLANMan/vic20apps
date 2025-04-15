@@ -2,6 +2,8 @@
 
 Find out which most important historical event occurred on each date using your computer (or emulator) Commodore VIC-20.
 
+<img src="/Today/Today.png">
+
 ## The problem:
 How can I read the news on the VIC-20 if my VIC-20 emulator does not have access to the Internet or any other similar network?
 
