@@ -1,0 +1,384 @@
+10 today events 
+20 create by adrian rupp, 2025
+30 use list mmdd
+0101 emancipation proclamation enacted in the u.s. (1863)  
+0102 fall of manila to u.s. forces in wwii (1945)  
+0103 alaska admitted as the 49th u.s. state (1959)  
+0104 utah admitted as the 45th u.s. state (1896) 
+0105 nellie bly completes her around-the-world journey in 72 days (1890)
+0106 attack on the u.s. capitol by pro-trump rioters (2021) 
+0107 galileo discovers jupiter's four largest moons (1610) 
+0108 russian cosmonaut valeri polyakov begins a 438-day space mission (1994).
+0109 apple ceo steve jobs unveils the first iphone (2007)  
+0110 league of nations formally established (1920)  
+0111 grand canyon national monument created (1908)  
+0112 devastating earthquake strikes haiti, killing 230,000+ (2010)  
+0113 black friday bushfires kill 71 in australia (1939)  
+0114 albert schweitzer opens his hospital in french equatorial africa (1914)  
+0115 wikipedia launched by jimmy wales and larry sanger (2001)  
+0116 prohibition begins in the u.s. via the 18th amendment (1920)  
+0117 operation desert storm begins against iraq (1991)  
+0118 captain james cook becomes first european to reach hawaii (1778)  
+0119 u.s. navy lieutenant charles wilkes  discovers antarctica (1840).
+0120 franklin d. roosevelt inaugurated, starting the first u.s. presidential term 1937
+0121 uss *nautilus*, the first nuclear-powered submarine, launched (1954)  
+0122 u.s. supreme court legalizes abortion in *roe v. wade* (1973)  
+0123 first successful living-donor kidney transplant (1954)  
+0124 california gold rush begins after james marshall finds gold (1848)  
+0125 first winter olympic games open in chamonix, france (1924)  
+0126 india's constitution takes effect, establishing republic day (1950)  
+0127 soviet red army liberates auschwitz concentration camp (1945)  
+0128 space shuttle *challenger* explodes shortly after launch (1986)  
+0129 edgar allan poe's *the raven* first published (1845)  
+0130 mahatma gandhi assassinated in new delhi (1948)  
+0131 explorer 1, the first u.s. satellite, launched into orbit (1958)
+
+0201 space shuttle *columbia* disintegrates during re-entry (2003)  
+0202 treaty of guadalupe hidalgo ends the mexican-american war (1848)  
+0203 buddy holly, ritchie valens, and j.p. "the big bopper" richardson die (1959)  
+0204 facebook launched by mark zuckerberg (2004)  
+0205 mexico adopts its current constitution (1917)  
+0206 queen elizabeth ii ascends to the british throne (1952)  
+0207 great baltimore fire destroys over 1,500 buildings (1904)  
+0208 mary, queen of scots, executed by elizabeth i (1587)  
+0209 the beatles make their first u.s. appearance on *the ed sullivan show* (1964)  
+0210 the vatican becomes a sovereign state via the lateran treaty (1929)  
+0211 nelson mandela released from prison after 27 years (1990)  
+0212 adolf hitler receives the iron cross 2nd class for bravery in wwi (1915).
+0213 allied firebombing of dresden begins in wwii (1945)  
+0214 st. valentine's day massacre in chicago (1929)  
+0215 uss *maine* explodes in havana harbor, sparking the spanish-american war (1898)  
+0216 fidel castro becomes prime minister of cuba (1959)  
+0217 vanguard 2, the first weather satellite, launched (1959)  
+0218 pluto discovered by clyde tombaugh (1930)  
+0219 executive order 9066 authorizes japanese american internment (1942)  
+0220 john glenn becomes first american to orbit earth (1962)  
+0221 malcolm x assassinated in new york city (1965)  
+0222 battle of buena vista ends in u.s. victory during the mexican-american war (1847)
+0223 siege of the alamo begins in texas (1836)  
+0224 u.s.-led coalition begins ground offensive in the gulf war (1991)  
+0225 people power revolution ousts ferdinand marcos in the philippines (1986)  
+0226 grand canyon designated a u.s. national park (1919)  
+0227 reichstag fire in berlin aids nazi rise to power (1933)  
+0228 branch davidian standoff begins in waco, texas (1993)  
+0229 first academy awards (oscars) ceremony held in hollywood (1940)
+
+0301 yellowstone national park established as the world's first national park (1872)
+0302 texas declares independence from mexico (1836)  
+0303 the u.s. congress passes the missouri compromise (1820)  
+0304 the first constitution of the united states takes effect (1789)  
+0305 boston massacre: british soldiers kill five colonists (1770)  
+0306 ghana gains independence from british colonial rule (1957).
+0307 alexander graham bell patents the telephone (1876)  
+0308 international women's day first observed (1911)  
+0309 barbie doll debuts at the american international toy fair (1959)  
+0310 telephone patent granted to alexander graham bell (disputed) (1876)  
+0311 great east japan earthquake and tsunami devastate northeastern japan (2011)  
+0312 mahatma gandhi begins the salt march against british rule (1930)  
+0313 william herschel discovers uranus (1781)  
+0314 president theodore roosevelt establishes the first u.s. wildlife refuge (1903).
+0315 julius caesar assassinated in rome (44 bce)  
+0316 robert goddard launches the first liquid-fueled rocket (1926)  
+0317 st. patrick's day first celebrated as a feast day in ireland (c. 17th century)  
+0318 first spacewalk: soviet cosmonaut alexei leonov exits voskhod 2 (1965)  
+0319 u.s. invades iraq, starting the iraq war (2003)  
+0320 ibn battuta begins his 30-year journey across africa and asia (1325)  
+0321 battle of karánsebes: austrian army accidentally attacks itself (1788)  
+0322 stamp act passed by british parliament, sparking colonial outrage (1765)  
+0323 patrick henry delivers -give me liberty or give me death! speech (1775)  
+0324 exxon valdez oil spill devastates alaska's prince william sound (1989)  
+0325 european union's schengen agreement takes effect (1995)  
+0326 bangladesh gains independence from pakistan (1971)  
+0327 alaska earthquake, the most powerful in u.s. history (magnitude 9.2) (1964)  
+0328 three mile island nuclear accident occurs in pennsylvania (1979)  
+0329 terracotta army discovered in xi'an, china (1974)  
+0330 u.s. purchases alaska from russia for $7.2 million (1867)  
+0331 eiffel tower opens in paris (1889)  
+
+0401 apple launches the itunes store, revolutionizing digital media sales (2003)  
+0402 falklands war begins as argentina invades british-held islands (1982)  
+0403 martin luther king jr. delivers final speech, "i've been to the mountaintop" (1968)  
+0404 martin luther king jr. assassinated in memphis, tennessee (1968)  
+0405 winston churchill resigns as british prime minister (1955)  
+0406 first modern olympic games open in athens, greece (1896)  
+0407 world health organization (who) founded (1948)  
+0408 noah webster's *american dictionary of the english language* published (1828)  
+0409 first successful human-to-human heart transplant performed (1967)  
+0410 first arbor day celebrated in nebraska (1872)  
+0411 apollo 13 launches, later suffering a critical in-flight emergency (1970)  
+0412 yuri gagarin becomes first human in space; u.s. civil war begins (1961 / 1861)  
+0413 apollo 13 oxygen tank explodes, forcing a perilous return to earth (1970)  
+0414 rms *titanic* strikes an iceberg in the north atlantic (1912)  
+0415 president abraham lincoln dies after assassination by john wilkes booth (1865)  
+0416 virginia tech shooting leaves 33 dead in the deadliest u.s. school attack (2007)  
+0417 bay of pigs invasion: u.s.-backed cuban exiles fail to overthrow castro (1961)  
+0418 great san francisco earthquake destroys 80% of the city (1906)  
+0419 oklahoma city bombing kills 168 in the deadliest domestic terror attack (1995)  
+0420 columbine high school massacre shocks the u.s. (1999)  
+0421 red cross founded in switzerland by henry dunant (1863)  
+0422 first earth day sparks global environmental movement (1970)  
+0423 first youtube video, "me at the zoo," is uploaded (2005)  
+0424 armenian genocide begins with ottoman arrest of intellectuals (1915)  
+0425 anzac day commemorates australian and new zealand troops at gallipoli (1915)  
+0426 chernobyl nuclear disaster contaminates eastern europe (1986)  
+0427 south africa holds first multiracial democratic elections (1994)  
+0428 mutiny on the hms *bounty* against captain william bligh (1789)  
+0429 los angeles riots erupt after police acquitted in rodney king beating (1992)  
+0430 fall of saigon ends the vietnam war (1975).
+
+0501 empire state building opens in new york city (1931).
+0502 osama bin laden killed by u.s. forces in pakistan (2011)  
+0503 first unsolicited mass commercial email (spam) sent (1978)  
+0504 kent state shootings: national guard kills four student protesters (1970)  
+0505 napoleon bonaparte dies in exile on saint helena (1821)  
+0506 hindenburg disaster: german airship bursts into flames in new jersey (1937)  
+0507 rms *lusitania* sunk by a german u-boat during wwi (1915)  
+0508 v-e day: allies accept nazi germany's surrender in wwii (1945)  
+0509 john logie baird demonstrates first working television system (1927)  
+0510 first transcontinental railroad completed in the u.s. (1869)  
+0511 ibm's deep blue defeats chess champion garry kasparov (1997)  
+0512 ceasefire ending the 1 nagorno-karabakh war (1994)
+0513 u.s. declares war on mexico, starting the mexican-american war (1846)  
+0514 state of israel declares independence (1948)  
+0515 first mcdonald's restaurant opens in san bernardino, california (1940)  
+0516 first academy awards ceremony (oscars) held in hollywood (1929)
+0517 brown v. board of education rules u.s. school segregation unconstitutional (1954)  
+0518 mount st. helens erupts in washington state, killing 57 (1980)  
+0519 anne boleyn executed by beheading in tudor england (1536)  
+0520 charles lindbergh begins first solo nonstop transatlantic flight (1927)  
+0521 clara barton founds the american red cross (1881)  
+0522 wright brothers patent their "flying machine" (1906)  
+0523 outlaws bonnie and clyde killed in police ambush (1934)  
+0524 brooklyn bridge opens to traffic in new york city (1883)  
+0525 star wars released, revolutionizing film and pop culture (1977)  
+0526 dow jones industrial average debuts on the stock market (1896)  
+0527 golden gate bridge opens in san francisco (1937)  
+0528 sierra club environmental organization founded (1892)  
+0529 mount everest summited for the first time by hillary and norgay (1953)  
+0530 joan of arc burned at the stake in rouen, france (1431)  
+0531 tulsa race massacre begins, destroying black wall street (1921)  
+
+0601 the first transcontinental railroad in north america is completed, nevada (1869).
+0602 queen elizabeth ii is crowned at westminster abbey (1953).
+0603 the tiananmen square massacre occurs in beijing, china (1989).
+0604 china violently suppresses protests in tiananmen square (1989).
+0605 robert f. kennedy is assassinated in los angeles, california (1968).
+0606 allied forces land on the beaches of normandy, france (d-day) (1944).
+0607 israel captures east jerusalem during the six-day war (1967).
+0608 the soviet union launches soyuz 9, a manned mission (1970).
+0609 the united kingdom holds its first general election after world war ii (1945).
+0610 italy declares war on france and the united kingdom during world war ii (1940).
+0611 the united states congress passes the social security act (1935).
+0612 anne frank receives her diary (1942).
+0613 the united nations security council adopts resolution 242 (1967).
+0614 napoleon's victory at the battle of friedland (1807).
+0615 king john of england seals magna carta (1215).
+0616 the soweto uprising begins in south africa (1976).
+0617 the watergate scandal begins with the break-in at the dnc headquarters (1972).
+0618 the war of 1812 begins with a declaration of war by the u.s. against g.b. (1812).
+0619 juneteenth: the union army general orders the freedom of enslaved, texas (1865).
+0620 queen victoria ascends the throne (1837).
+0621 death of niccolo machiavelli (1527).
+0622 germany launches operation barbarossa, the invasion of the soviet union (1941).
+0623 the united kingdom votes to leave the european union in a referendum (2016).
+0624 the battle of bannockburn takes place, scottish forces wins (1314).
+0625 mozambique gains independence from portugal (1975).
+0626 the charter of the united nations is signed in san francisco (1945).
+0627 djibouti gains independence from france (1977).
+0628 the treaty of versailles is signed, officially ending world war i (1919).
+0629 pope john paul ii issues the encyclical *redemptoris mater* (1987).
+0630 the tunguska event occurs in siberia, russia (1908).
+
+0701 canada becomes a self-governing dominion within the british empire (1867).
+0702 the united states congress passes the civil rights act of 1964.
+0703 the battle of gettysburg begins during the american civil war (1863).
+0704 the united states declares its independence from great britain (1776).
+0705 venezuela declares its independence from spain (1811).
+0706 malawi declares its independence from the united kingdom (1964).
+0707 the united states annexes hawaii (1898).
+0708 the united states signs the treaty of kanagawa with japan (1854).
+0709 argentina declares its independence from spain (1816).
+0710 france defeats austria at the battle of wagram during the napoleonic wars (1809).
+0711 australia gains its independence from the united kingdom (1901).
+0712 são tomé and príncipe gain independence from portugal (1975).
+0713 the treaty of berlin is signed, reorganizing the balkans (1878).
+0714 the french revolution begins with the storming of the bastille (1789).
+0715 the kingdom of england and the kingdom of scotland are united (1707).
+0716 the soviet union conducts its first successful test of an atomic bomb (1949).
+0717 the potsdam conference begins, where allied leaders discuss the post-war order 1945
+0718 adolf hitler publishes mein kampf, outlining his ideology and future plans (1925).
+0719 the apollo 11 spacecraft enters lunar orbit (1969).
+0720 the first humans land on the moon during the apollo 11 mission (1969).
+0721 the united states ends its involvement in the vietnam war (1976).
+0722 the soviet union launches soyuz 37, a manned mission to the salyut 6 (1980).
+0723 syria and egypt form the united arab republic (1958).
+0724 the ss eastland capsizes in lake michigan, killing 852 people (1915).
+0725 the korean war begins with the invasion of south korea by north korea (1950).
+0726 the beginning of the cuban revolution (1953).
+0727 the armistice ending the korean war is signed (1953).
+0728 world hepatitis day is observed annually by the world health organization.
+0729 the united kingdom hosts the opening ceremony of the summer olympics (1948).
+0730 the united states congress establishes medicare and medicaid (1965).
+0731 fidel castro announces that cuba is a socialist state (1961).
+
+0801 switzerland is founded as the swiss confederation (1291).
+0802 macedonia is divided between serbia, greece, and bulgaria (1913).
+0803 christopher columbus sets sail from palos de la frontera, spain (1492).
+0804 world war i: germany invades belgium (1914).
+0805 the cornerstone of the statue of liberty is laid on bedloe's island (1884).
+0806 the united states drops an atomic bomb on hiroshima, japan (1945).
+0807 côte d'ivoire declares its independence from france (1960).
+0808 nixon's resignation as u.s. president in 1974
+0809 the united states drops an atomic bomb on nagasaki, japan (1945).
+0810 ecuador declares its independence from spain (1809).
+0811 chad declares its independence from france (1960).
+0812 the battle of stalingrad begins during world war ii (1942).
+0813 the berlin wall is erected, dividing east and west berlin (1961).
+0814 pakistan gains independence from the united kingdom (1947).
+0815 india gains independence from the united kingdom (1947).
+0816 the dominican restoration war begins (1863).
+0817 indonesia declares its independence from the netherlands (1945).
+0818 the 19th amendment to the u.s. constitution, granting women's suffrage (1920).
+0819 the august coup begins in the soviet union (1991).
+0820 estonia re-declares its independence from the soviet union (1991).
+0821 afghanistan gains independence from the united kingdom (1919).
+0822 the united states launches the voyager 2 spacecraft (1977).
+0823 the molotov–ribbentrop pact is signed between nazis and the soviet union (1939).
+0824 ukraine declares its independence from the soviet union (1991).
+0825 galileo demonstrates his telescope (1609).
+0826 krakatoa erupts in one of the deadliest volcanic eruptions (1883).
+0827 the kellogg-briand pact, renouncing war as an instrument of national policy (1928)
+0828 martin luther king jr. delivers his "i have a dream" speech (1963).
+0829 slovakia declares its independence from czechoslovakia (1944).
+0830 turkey celebrates the decisive victory in the battle of dumlupınar (1922).
+0831 malaysia celebrates its independence from british rule (1957).
+
+0901 world war ii begins with the german invasion of poland (1939).
+0902 japan formally surrenders to the allied forces, officially ending wwii (1945).
+0903 world war ii: the united kingdom and france declare war on germany (1939).
+0904 los angeles is founded by spanish settlers (1781).
+0905 the first continental congress assembles in philadelphia (1774).
+0906 the soviet union recognizes the independence of the baltic states (1991).
+0907 nazi germany initiated the london blitz, an eight-month bombing campaign (1940)
+0908 the german army begins its siege of leningrad during world war ii (1941).
+0909 california is admitted as the 31st u.s. state (1850).
+0910 elias howe receives a patent for his sewing machine (1846).
+0911 the september 11 attacks occur in the united states (2001).
+0912 the battle of the marne begins during world war i (1914).
+0913 the united states flag with 15 stars and 15 stripes is adopted (1794).
+0914 world war i: the first battle of the aisne begins (1914).
+0915 mexico declares its independence from spain (1810).
+0916 the pilgrims set sail from plymouth, england, on the mayflower (1620).
+0917 the constitution of the united states is signed by delegates (1787).
+0918 chile declares its independence from spain (1810).
+0919 the battle of quebec takes place during the american revolutionary war (1775).
+0920 the kingdom of italy occupies rome, completing the unification of italy (1870).
+0921 malta gains independence from the united kingdom (1964).
+0922 the emancipation proclamation is issued by u.s. president abraham lincoln (1862).
+0923 saudi arabia is unified as a kingdom (1932).
+0924 mali declares its independence from france (1960).
+0925 the united states bill of rights goes into effect (1789).
+0926 yemen arab republic is proclaimed (1962).
+0927 the spanish armada sets sail from lisbon to invade england (1588).
+0928 the united states mint begins issuing the eisenhower dollar (1971).
+0929 the battle of britain ends with a decisive victory for the royal air force (1940).
+0930 botswana gains independence from the united kingdom (1966).
+
+1001 nigeria gains independence from the united kingdom (1960).
+1002 actor rock hudson dies of aids, raising global awareness (1985).
+1003 germany is reunified after being divided for more than 40 years (1990).
+1004 the world wide fund for nature (wwf) is founded (1961).
+1005 the first manned flight of the bell x-1 takes place, (1947).
+1006 yom kippur war begins with a surprise attack on israel by egypt and syria (1973).
+1007 east germany ceases to exist as the german democratic republic is dissolved (1990)
+1008 the great chicago fire erupts (1871).
+1009 che guevara is executed by the bolivian army (1967).
+1010 fiji gains independence from the united kingdom (1970).
+1011 the united states navy is formally established by an act of congress (1775).
+1012 christopher columbus lands, marking the arrival of europeans in the americas (1492)
+1013 the cornerstone of the white house is laid in washington, d.c. (1792).
+1014 the battle of hastings takes place, leading to the norman conquest of england 1066
+1015 millions protest the vietnam war during vietnam moratorium day in the u.s. (1969).
+1016 nelson mandela and f.w. de klerk jointly receive the nobel peace prize (1993).
+1017 the russian revolution begins with the october revolution (julian calendar) (1917).
+1018 alaska is formally transferred from russia to the united states (1867).
+1019 the united states and the united kingdom sign the treaty of ghent (1814).
+1020 jomo kenyatta becomes the first prime minister of kenya (1963).
+1021 the united nations is officially established (1945).
+1022 the cuban missile crisis begins (1962).
+1023 the hungarian revolution of 1956 begins (1956).
+1024 the united nations day is observed annually.
+1025 the battle of agincourt, during the hundred years' war (1415).
+1026 austria declares its permanent neutrality (1955).
+1027 saint vincent and the grenadines gains independence from the united kingdom (1979).
+1028 the statue of liberty is dedicated in new york harbor (1886).
+1029 black tuesday: the wall street crash of 1929 begins (1929).
+1030 the boston tea party takes place (1773).
+1031 martin luther's post his ninety-five theses (1517).
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+1101 start of the algerian war of independence (1954)  
+1102 balfour declaration issued, supporting a jewish homeland in palestine (1917)  
+1103 panama declares independence from colombia (1903)  
+1104 iran hostage crisis begins at the u.s. embassy in tehran (1979)  
+1105 gunpowder plot to blow up the british parliament is foiled (1605)  
+1106 abraham lincoln elected 16th u.s. president (1860)  
+1107 october revolution begins in russia (gregorian calendar) (1917)  
+1108 hitler's beer hall putsch fails in munich (1923)  
+1109 kristallnacht pogrom against jews in nazi germany begins (1938)  
+1110 united states marine corps is established (1775)  
+1111 armistice ends world war i (1918)  
+1112 wreck of the rms titanic discovered in the atlantic ocean (1985)  
+1113 vietnam veterans memorial dedicated in washington, d.c. (1982)  
+1114 apollo 12 launches, the second crewed mission to the moon (1969)  
+1115 the battle of morgarten (1315).
+1116 unesco founded as a un specialized agency (1945)  
+1117 suez canal officially opens in egypt (1869)  
+1118 u.s. and canada adopt standardized time zones (1883)  
+1119 abraham lincoln delivers the gettysburg address (1863)  
+1120 nuremberg trials of nazi war criminals begin (1945)  
+1121 mayflower compact signed by pilgrims aboard the mayflower (1620)  
+1122 assassination of u.s. president john f. kennedy (1963)  
+1123 first episode of *doctor who* airs on bbc (1963)  
+1124 charles darwin publishes *on the origin of species* (1859)  
+1125 suriname gains independence from the netherlands (1975)  
+1126 coordinated terrorist attacks begin in mumbai, india (2008)  
+1127 hubble space telescope deployed by space shuttle discovery (1990)  
+1128 benazir bhutto becomes first woman pm of a muslim-majority country (1988)  
+1129 un approves partition plan for palestine, leading to israel's creation (1947)  
+1130 first fifa world cup kicks off in uruguay (1930)  
+
+1201 rosa parks arrested, sparking the montgomery bus boycott (1955).  
+1202 napoleon bonaparte crowns himself emperor of france (1804).  
+1203 first successful human heart transplant performed by dr. christiaan barnard (1967)
+1204 u.s. senate approves participation in the united nations (1945).  
+1205 Wolfgang Amadeus Mozart dies (1791)
+1206 Ratification of the 13th Amendment (abolished slavery) U.S. Constitution (1865).
+1207 japanese attack on pearl harbor draws the u.s. into world war ii (1941).  
+1208 john lennon assassinated in new york city (1980).  
+1209 douglas engelbart demonstrates the computer mouse and hypertext (1968).  
+1210 first nobel prizes awarded on the anniversary of alfred nobel's death (1901).  
+1211 nazi germany and fascist italy declare war on the u.s. (1941).  
+1212 u.s. supreme court decides *bush v. gore*, halting florida's recount (2000).  
+1213 nanjing massacre begins during the second sino-japanese war (1937).  
+1214 roald amundsen becomes first person to reach the south pole (1911).  
+1215 u.s. bill of rights ratified (1791).  
+1216 boston tea party protests british taxation in colonial america (1773).  
+1217 wright brothers achieve first controlled, sustained airplane flight (1903).  
+1218 shippingport atomic power station becomes first u.s. commercial nuclear plant 1957
+1219 george washington's continental army arrives at valley forge (1777).  
+1220 louisiana purchase finalized, doubling u.s. territory (1803).  
+1221 apollo 8 launches, becoming first crewed mission to orbit the moon (1968).  
+1222 survivors of uruguayan air force flight 571 rescued after 72 days (1972).  
+1223 vincent van gogh cuts off part of his ear during a mental health crisis (1888).  
+1224 treaty of ghent signed, ending the war of 1812 (1814).  
+1225 charlemagne crowned holy roman emperor by pope leo iii (800).  
+1226 indian ocean tsunami kills over 230,000 people across 14 countries (2004).  
+1227 indonesia's formal independence from dutch colonial rule in 1949 
+1228 lumière brothers host first public film screening in paris (1895).  
+1229 texas admitted as the 28th u.s. state (1845).  
+1230 union of soviet socialist republics (ussr) officially formed (1922).  
+1231 panama canal transferred from u.s. to panamanian control (1999).
+2000 today events 
+2010 create by adrian rupp, 2025
+2020 use list mmdd
+
