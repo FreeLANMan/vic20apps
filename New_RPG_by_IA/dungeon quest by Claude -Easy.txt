@@ -1,0 +1,144 @@
+
+10 rem *** dungeon quest ***
+20 rem *** for vic-20 ***
+30 print chr$(147)
+40 poke 36879,8
+50 print "*** dungeon quest ***"
+60 print
+70 dim r$(10),e(10,4),m$(5),it$(5)
+75 rem set initial values
+80 h=10:s=10:g=0:r=1:i=0
+90 for x=1 to 5:it$(x)="":next x
+100 rem *** room data ***
+110 r$(1)="dungeon entrance"
+120 r$(2)="dark corridor"
+130 r$(3)="treasure room"
+140 r$(4)="monster lair"
+150 r$(5)="armory"
+160 r$(6)="magic fountain"
+170 r$(7)="exit hall"
+180 rem *** exit data: n,s,e,w ***
+190 e(1,1)=0:e(1,2)=0:e(1,3)=2:e(1,4)=0
+200 e(2,1)=4:e(2,2)=5:e(2,3)=3:e(2,4)=1
+210 e(3,1)=0:e(3,2)=0:e(3,3)=0:e(3,4)=2
+220 e(4,1)=0:e(4,2)=2:e(4,3)=0:e(4,4)=0
+230 e(5,1)=2:e(5,2)=0:e(5,3)=6:e(5,4)=0
+240 e(6,1)=0:e(6,2)=0:e(6,3)=7:e(6,4)=5
+250 e(7,1)=0:e(7,2)=0:e(7,3)=0:e(7,4)=6
+260 rem *** monster data ***
+270 m$(1)="goblin":m$(2)="skeleton"
+280 m$(3)="orc":m$(4)="troll":m$(5)="dragon"
+290 rem *** game loop ***
+300 gosub 1000
+310 input "what now";c$
+320 if c$="n" then d=1:goto 400
+330 if c$="s" then d=2:goto 400
+340 if c$="e" then d=3:goto 400
+350 if c$="w" then d=4:goto 400
+360 if c$="i" then gosub 1500:goto 310
+370 if c$="h" then gosub 2000:goto 310
+380 if c$="q" then print "quitting...":end
+390 print "try n,s,e,w,i,h,q":goto 310
+400 rem *** movement ***
+410 if e(r,d)=0 then print "can't go that way":goto 310
+420 r=e(r,d)
+430 if r=3 and rnd(1)>.5 then g=g+int(rnd(1)*10)+1:print "found";g;"gold!"
+440 if r=4 and rnd(1)>.7 then gosub 3000
+450 if r=5 and rnd(1)>.5 then gosub 4000
+460 if r=6 then h=10:print "you feel refreshed!"
+470 if r=7 then gosub 5000
+480 goto 300
+1000 rem *** display room ***
+1010 print chr$(147)
+1020 print "you are in the ";r$(r)
+1030 print "hp:";h;" str:";s;" gold:";g
+1040 print "exits: ";
+1050 if e(r,1)>0 then print "n ";
+1060 if e(r,2)>0 then print "s ";
+1070 if e(r,3)>0 then print "e ";
+1080 if e(r,4)>0 then print "w ";
+1090 print
+1100 return
+1500 rem *** inventory ***
+1510 print:print "inventory:"
+1520 f=0
+1530 for x=1 to 5
+1540 if it$(x)<>"" then print it$(x):f=1
+1550 next x
+1560 if f=0 then print "nothing"
+1570 print:print "press any key to continue..."
+1580 get k$:if k$="" then 1580
+1590 return
+2000 rem *** help ***
+2010 print:print "commands:"
+2020 print "n,s,e,w - move"
+2030 print "i - inventory"
+2040 print "h - help"
+2050 print "q - quit"
+2060 print:print "press any key to continue..."
+2070 get k$:if k$="" then 2070
+2080 return
+3000 rem *** monster encounter ***
+3010 print chr$(147)
+3020 m=int(rnd(1)*5)+1
+3030 print "*** combat ***"
+3040 print
+3050 print "a ";m$(m);" appears!"
+3060 ms=m*2
+3070 print "monster strength:";ms
+3080 print "your hp:";h
+3090 print
+3100 print "1-fight 2-run"
+3110 input a
+3120 if a=2 then if rnd(1)>.5 then print "escaped!":goto 3370
+3130 if a=2 then print "couldn't escape!"
+3140 rem combat loop
+3150 print:print "you attack!"
+3160 dmg=int(rnd(1)*s)+1
+3170 print "you hit for";dmg;"damage"
+3180 ms=ms-dmg
+3190 print "monster hp:";ms
+3200 if ms<=0 then print:print "monster defeated!":goto 3370
+3210 print:print "monster attacks!"
+3220 mdmg=int(rnd(1)*m)+1
+3230 print "it hits for";mdmg;"damage"
+3240 h=h-mdmg
+3250 print "your hp:";h
+3260 if h<=0 then gosub 6000:end
+3270 print
+3280 print "1-fight 2-run"
+3290 input a
+3300 if a=2 then if rnd(1)>.5 then print "escaped!":goto 3370
+3310 if a=2 then print "couldn't escape!"
+3320 if a=1 then goto 3150
+3330 print "invalid choice"
+3340 goto 3280
+3350 rem end combat
+3360 print:print "combat ended"
+3370 print:print "press any key to continue..."
+3380 get k$:if k$="" then 3380
+3390 return
+4000 rem *** find item ***
+4010 itm=int(rnd(1)*3)+1
+4020 if itm=1 then t$="sword":b=2
+4030 if itm=2 then t$="shield":b=1
+4040 if itm=3 then t$="magic ring":b=3
+4050 print "you found a ";t$;"!"
+4060 for x=1 to 5
+4070 if it$(x)="" then it$(x)=t$:i=i+1:s=s+b:goto 4090
+4080 next x
+4090 print:print "press any key to continue..."
+4100 get k$:if k$="" then 4100
+4110 return
+5000 rem *** game end ***
+5010 print chr$(147)
+5020 print "you reached the exit!"
+5030 print "you escaped with";g;"gold"
+5040 print "congratulations!"
+5050 end
+6000 rem *** death ***
+6010 print chr$(147)
+6020 print "you have died!"
+6030 print "game over"
+6040 return
+

@@ -1,0 +1,187 @@
+
+10 rem *** dungeon quest ***
+20 rem *** for vic-20 ***
+30 print chr$(147)
+40 poke 36879,8
+50 print "*** dungeon quest ***"
+60 print
+70 dim r$(10),e(10,4),m$(5),it$(5)
+75 rem set initial values
+80 h=8:s=6:g=0:r=1:i=0
+90 for x=1 to 5:it$(x)="":next x
+100 rem *** room data ***
+110 r$(1)="dungeon entrance"
+120 r$(2)="dark corridor"
+130 r$(3)="treasure room"
+140 r$(4)="monster lair"
+150 r$(5)="armory"
+160 r$(6)="magic fountain"
+170 r$(7)="treasure vault"
+180 r$(8)="dragon's den"
+190 r$(9)="exit hall"
+200 rem *** exit data: n,s,e,w ***
+210 e(1,1)=0:e(1,2)=0:e(1,3)=2:e(1,4)=0
+220 e(2,1)=4:e(2,2)=5:e(2,3)=3:e(2,4)=1
+230 e(3,1)=0:e(3,2)=0:e(3,3)=7:e(3,4)=2
+240 e(4,1)=0:e(4,2)=2:e(4,3)=0:e(4,4)=0
+250 e(5,1)=2:e(5,2)=0:e(5,3)=6:e(5,4)=0
+260 e(6,1)=0:e(6,2)=0:e(6,3)=8:e(6,4)=5
+270 e(7,1)=0:e(7,2)=0:e(7,3)=0:e(7,4)=3
+280 e(8,1)=0:e(8,2)=0:e(8,3)=9:e(8,4)=6
+290 e(9,1)=0:e(9,2)=0:e(9,3)=0:e(9,4)=8
+300 rem *** monster data ***
+310 m$(1)="goblin":m$(2)="skeleton"
+320 m$(3)="orc":m$(4)="troll":m$(5)="dragon"
+330 rem *** game loop ***
+340 gosub 1000
+350 input "what now";c$
+360 if c$="n" then d=1:goto 440
+370 if c$="s" then d=2:goto 440
+380 if c$="e" then d=3:goto 440
+390 if c$="w" then d=4:goto 440
+400 if c$="i" then gosub 1500:goto 350
+410 if c$="h" then gosub 2000:goto 350
+420 if c$="q" then print "quitting...":end
+430 print "try n,s,e,w,i,h,q":goto 350
+440 rem *** movement ***
+450 if e(r,d)=0 then print "can't go that way":goto 350
+460 r=e(r,d)
+470 if rnd(1)>.6 then print "safe so far...":goto 520
+480 if r=3 or r=7 then g=g+int(rnd(1)*10)+1:print "found";g;"gold!"
+490 if rnd(1)>.3 then gosub 3000
+500 if r=5 and rnd(1)>.7 then gosub 4000
+510 if r=6 then h=h+int(rnd(1)*3)+1:if h>10 then h=10:print "fountain heals you! hp:";h
+520 if r=8 then gosub 7000
+530 if r=9 then gosub 5000
+540 goto 340
+1000 rem *** display room ***
+1010 print chr$(147)
+1020 print "you are in the ";r$(r)
+1030 print "hp:";h;" str:";s;" gold:";g
+1040 print "exits: ";
+1050 if e(r,1)>0 then print "n ";
+1060 if e(r,2)>0 then print "s ";
+1070 if e(r,3)>0 then print "e ";
+1080 if e(r,4)>0 then print "w ";
+1090 print
+1100 return
+1500 rem *** inventory ***
+1510 print:print "inventory:"
+1520 f=0
+1530 for x=1 to 5
+1540 if it$(x)<>"" then print it$(x):f=1
+1550 next x
+1560 if f=0 then print "nothing"
+1570 print:print "press any key to continue..."
+1580 get k$:if k$="" then 1580
+1590 return
+2000 rem *** help ***
+2010 print:print "commands:"
+2020 print "n,s,e,w - move"
+2030 print "i - inventory"
+2040 print "h - help"
+2050 print "q - quit"
+2060 print:print "press any key to continue..."
+2070 get k$:if k$="" then 2070
+2080 return
+3000 rem *** monster encounter ***
+3010 print chr$(147)
+3020 m=int(rnd(1)*5)+1
+3025 if r=8 then m=5
+3030 print "*** combat ***"
+3040 print
+3050 print "a ";m$(m);" appears!"
+3060 ms=m*3
+3070 print "monster strength:";ms
+3080 print "your hp:";h
+3090 print
+3100 print "1-fight 2-run"
+3110 input a
+3120 if a=2 then if rnd(1)>.7 then print "escaped!":goto 3370
+3130 if a=2 then print "couldn't escape!"
+3140 rem combat loop
+3150 print:print "you attack!"
+3160 dmg=int(rnd(1)*s)+1
+3170 print "you hit for";dmg;"damage"
+3180 ms=ms-dmg
+3190 print "monster hp:";ms
+3200 if ms<=0 then print:print "monster defeated!":goto 3370
+3210 print:print "monster attacks!"
+3220 mdmg=int(rnd(1)*m*1.5)+1
+3230 print "it hits for";mdmg;"damage"
+3240 h=h-mdmg
+3250 print "your hp:";h
+3260 if h<=0 then gosub 6000:end
+3270 print
+3280 print "1-fight 2-run"
+3290 input a
+3300 if a=2 then if rnd(1)>.7 then print "escaped!":goto 3370
+3310 if a=2 then print "couldn't escape!"
+3320 if a=1 then goto 3150
+3330 print "invalid choice"
+3340 goto 3280
+3350 rem end combat
+3360 print:print "combat ended"
+3370 print:print "press any key to continue..."
+3380 get k$:if k$="" then 3380
+3390 return
+4000 rem *** find item ***
+4010 itm=int(rnd(1)*3)+1
+4020 if itm=1 then t$="sword":b=2
+4030 if itm=2 then t$="shield":b=1
+4040 if itm=3 then t$="magic ring":b=3
+4050 print "you found a ";t$;"!"
+4060 for x=1 to 5
+4070 if it$(x)="" then it$(x)=t$:i=i+1:s=s+b:goto 4090
+4080 next x
+4090 print:print "press any key to continue..."
+4100 get k$:if k$="" then 4100
+4110 return
+5000 rem *** game end ***
+5010 print chr$(147)
+5020 print "you reached the exit!"
+5030 print "you escaped with";g;"gold"
+5040 print "congratulations!"
+5050 end
+6000 rem *** death ***
+6010 print chr$(147)
+6020 print "you have died!"
+6030 print "game over"
+6040 return
+7000 rem *** dragon encounter ***
+7010 print chr$(147)
+7020 print "*** dragon's den ***"
+7030 print
+7040 print "an ancient dragon guards"
+7050 print "the exit! it looks"
+7060 print "fearsome with glowing eyes"
+7070 print
+7080 print "1-fight 2-retreat"
+7090 input a
+7100 if a=2 then print "you back away...":return
+7110 m=5:rem always dragon
+7120 print "you face the dragon!"
+7130 ms=15:rem tough dragon
+7140 print "dragon strength:";ms
+7150 print "your hp:";h
+7160 print
+7170 print "1-attack 2-retreat"
+7180 input a
+7190 if a=2 then if rnd(1)>.3 then print "escaped!":return
+7200 if a=2 then print "dragon blocks your escape!"
+7210 rem dragon combat
+7220 print:print "you attack!"
+7230 dmg=int(rnd(1)*s)+1
+7240 print "you hit for";dmg;"damage"
+7250 ms=ms-dmg
+7260 print "dragon hp:";ms
+7270 if ms<=0 then print:print "dragon defeated!":return
+7280 print:print "dragon attacks!"
+7290 mdmg=int(rnd(1)*8)+2
+7300 print "it hits for";mdmg;"damage"
+7310 h=h-mdmg
+7320 print "your hp:";h
+7330 if h<=0 then gosub 6000:end
+7340 goto 7160
+7350 return
+
