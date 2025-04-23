@@ -6,13 +6,16 @@ Can a current AI create an RPG game from scratch?
 The answer is yes!
 I asked some current AIs to create an RPG game for the VIC-20 computer. Once again, the AI ​​that did the best was 'Claude 3.7 Sonnet'.
 
+<img src="/New_RPG_by_IA/Screenshot Dungeon.png">
+
+
 Here is the prompt:
 
 "Make a text-based role-playing game for the VIC-20 computer."
 
 That's it. Without giving any more details about how the game should be, everything being decided by the AI.
 
-The game is extremely simple but functional.
+The game is extremely simple but functional. I complained that the game was too easy and the AI ​​made a hard version too.
 
 ## What you need:
 1. A Commodore VIC-20 computer (or emulator) with 8Kb expansion. I haven't tested on real hardware, only on emulators.
