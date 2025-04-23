@@ -30,10 +30,11 @@ Claude: https://claude.ai/new
 
 DirMaster: https://style64.org/dirmaster 
 
-https://github.com/FreeLANMan/PCEmulatorPlus
+PCEmulator Plus: https://github.com/FreeLANMan/PCEmulatorPlus
 
 Xed: https://github.com/linuxmint/xed
 
 Google Translator: https://translate.google.com/?hl=pt-BR&tab=TT
 
+Linux Mint: https://www.linuxmint.com/
 
