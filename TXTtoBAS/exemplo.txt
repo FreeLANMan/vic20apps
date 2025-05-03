@@ -1,0 +1,7 @@
+Texto Exemplo
+
+  Este é um texto para exemplificar o funcionamento do conversor de textos para código BASIC para o famoso computador VIC-20. 
+
+  Aqui você vê como era o texto no arquivo .txt e também vai poder ver como ficou o texto no arquivo .bas e como fica quando executa no VIC-20.
+
+
